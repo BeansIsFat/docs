@@ -26,7 +26,7 @@ Edit the Recyclarr section in [saltbox `settings.yml`:](../settings.md) and ente
        cron_schedule: "@daily"
      ```
 
-Edit the file `/opt/recyclarr/recyclarr.yml`.
+Create and edit the file `/opt/recyclarr/recyclarr.yml`. You can run `docker exec recyclarr create-config` to generate a base configuration or create the file separately using the [template](https://github.com/recyclarr/recyclarr/blob/master/src/Recyclarr/config-template.yml). Use the [configuration reference](https://github.com/recyclarr/recyclarr/wiki/Configuration-Reference) and [configuration examples](https://github.com/recyclarr/recyclarr/wiki/Configuration-Examples) to customize.
 
 - Configure Sonarr section
       ``` { .yaml }
